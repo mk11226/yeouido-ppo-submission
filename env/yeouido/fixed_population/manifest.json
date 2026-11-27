@@ -1,0 +1,86 @@
+{
+  "signature": {
+    "version": 4,
+    "targets": {
+      "night": 462,
+      "day": 3338,
+      "rush": 4417
+    },
+    "policy": {
+      "route_edges": 10
+    },
+    "controller_sha256": "7798d8f2c83ae4c55787fffa99a6da42877e0c26c48f72232d0651afd809b4d6",
+    "inputs": {
+      "yeouido.net.xml": "30476574a95c7df574142d83e7ae07151418ad62a2c85ab5f744f436931302b1",
+      "yeouido.vtypes.xml": "aae874c12b4d1b7a49598d9f8107d4c1968bd0e1ffce90e8fd02219fa3e8f9d5",
+      "rush_uniform.rou.xml": "79d43165313d5e4517b495e092d64fc3d3404c80cefefdabbef0d94954564c66",
+      "signals_night.add.xml": "36b724624af1c2f9eec757c8d6f125aaf7adbdb1b7d79afe49c0825f397912b6",
+      "signals_day.add.xml": "586325d76808c866ccaceeeb334693952f9e2548df76c52630274a5f61b738a1",
+      "signals_rush.add.xml": "e48d6539b902b6c071f9e467ddf902eda2c2a25db6be2fe9c8ada5c351e56dac"
+    }
+  },
+  "reference_sources": {
+    "night": {
+      "path": "env/yeouido/states/night_uniform_600.xml.gz",
+      "sha256": "5fa91c434809800cf35e9b003ebe0f1c72621ee0a02a5e81a601133c3a46a5a6",
+      "reference_time_s": 600,
+      "on_road": 462
+    },
+    "day": {
+      "path": "env/yeouido/states/day_uniform_600.xml.gz",
+      "sha256": "195649e019635d56dc47008de537568d18be6ccfdc2400e09bfb7f9abcb5cbc9",
+      "reference_time_s": 600,
+      "on_road": 3338
+    },
+    "rush": {
+      "path": "env/yeouido/states/rush_uniform_600.xml.gz",
+      "sha256": "97f03e546d37f549f872ccc66ae8ec5dc0a45fa49d348607e76de68fc773ddd0",
+      "reference_time_s": 600,
+      "on_road": 4417
+    }
+  },
+  "initial": {
+    "night": {
+      "target": 462,
+      "registered": 462,
+      "expected_population": 462,
+      "on_road": 462,
+      "in_transit": 0,
+      "pending": 0,
+      "occupied_spawn_edges": 417,
+      "eligible_spawn_edges": 1217,
+      "eligible_lanes": 2843,
+      "created": 462,
+      "cancelled_pending": 0,
+      "mean_speed_kmh": 3.13
+    },
+    "day": {
+      "target": 3338,
+      "registered": 3338,
+      "expected_population": 3338,
+      "on_road": 3338,
+      "in_transit": 0,
+      "pending": 0,
+      "occupied_spawn_edges": 1217,
+      "eligible_spawn_edges": 1217,
+      "eligible_lanes": 2843,
+      "created": 3338,
+      "cancelled_pending": 0,
+      "mean_speed_kmh": 3.13
+    },
+    "rush": {
+      "target": 4417,
+      "registered": 4417,
+      "expected_population": 4417,
+      "on_road": 4417,
+      "in_transit": 0,
+      "pending": 0,
+      "occupied_spawn_edges": 1217,
+      "eligible_spawn_edges": 1217,
+      "eligible_lanes": 2843,
+      "created": 4417,
+      "cancelled_pending": 0,
+      "mean_speed_kmh": 3.12
+    }
+  }
+}

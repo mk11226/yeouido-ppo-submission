@@ -1,0 +1,97 @@
+[
+  {
+    "field": "observation",
+    "shape": [
+      290469,
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "field": "next_observation",
+    "shape": [
+      290469,
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "field": "action_raw",
+    "shape": [
+      290469,
+      2
+    ],
+    "dtype": "float32"
+  },
+  {
+    "field": "action_requested",
+    "shape": [
+      290469,
+      2
+    ],
+    "dtype": "float32"
+  },
+  {
+    "field": "episode",
+    "shape": [
+      290469
+    ],
+    "dtype": "int64"
+  },
+  {
+    "field": "step",
+    "shape": [
+      290469
+    ],
+    "dtype": "int32"
+  },
+  {
+    "field": "terminated",
+    "shape": [
+      290469
+    ],
+    "dtype": "bool"
+  },
+  {
+    "field": "truncated",
+    "shape": [
+      290469
+    ],
+    "dtype": "bool"
+  },
+  {
+    "field": "arrived",
+    "shape": [
+      290469
+    ],
+    "dtype": "bool"
+  },
+  {
+    "field": "collided",
+    "shape": [
+      290469
+    ],
+    "dtype": "bool"
+  },
+  {
+    "field": "teleported",
+    "shape": [
+      290469
+    ],
+    "dtype": "bool"
+  },
+  {
+    "field": "red_light",
+    "shape": [
+      290469
+    ],
+    "dtype": "bool"
+  },
+  {
+    "field": "level",
+    "shape": [
+      290469
+    ],
+    "dtype": "<U5"
+  }
+]

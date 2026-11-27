@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration><input><net-file value="../yeouido.net.xml" /><route-files value="../yeouido.vtypes.xml" /><additional-files value="../signals_night.add.xml" /></input><processing><time-to-teleport value="300" /></processing></configuration>
